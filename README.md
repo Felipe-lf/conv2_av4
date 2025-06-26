@@ -15,11 +15,11 @@ Simular o comportamento de um gerador síncrono alimentando uma carga específic
 
 ## ⚙️ Dados Utilizados
 
-- **Gerador:** WEG AG10250SI10CI B3T IP23
+- **Gerador:** WEG AG10280MI30CI B3T IP23
 - **Tensão nominal:** 380 V (trifásica)
-- **Reatância síncrona eixo direto (Xd):** 4.146 pu
-- **Reatância síncrona eixo em quadratura (Xq):** 1.146 pu
-- **Potência ativa da carga:** 86 kW
+- **Reatância síncrona eixo direto (Xd):** 4.624 pu
+- **Reatância síncrona eixo em quadratura (Xq):** 1.063 pu
+- **Potência ativa da carga:** 451kW
 - **Fator de potência:** 0.85 (indutivo)
 
 ---

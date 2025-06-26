@@ -43,7 +43,7 @@ def curvas_tipo_V(xd, xq, va, fp, cte_cca):
 
         plt.plot(i_f, i_a, linewidth=1.5)
 
-    plt.title('Curva V — I_a (pu) x I_f (A)', fontsize=12)
+    plt.title('Curva V', fontsize=12)
     plt.xlabel('Corrente de Campo (A)', fontsize=11)
     plt.ylabel('Corrente de Armadura (pu)', fontsize=11)
     plt.legend(['P 25%', 'P 50%', 'P 75%', 'P 100%'], loc='best')
@@ -54,4 +54,4 @@ def curvas_tipo_V(xd, xq, va, fp, cte_cca):
     return plt.show()
 
 
-curvas_tipo_V(4.146, 1.146, 1, 0.85, 0.8)
+curvas_tipo_V(4.624, 1.063, 1, 0.85, 0.6)

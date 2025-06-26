@@ -60,9 +60,9 @@ def curva_de_capacidade(v_nom_linha, fp, p, xd):
         x_inter, y_inter = intersec.exterior.xy
         ax.fill(x_inter, y_inter, color='purple', alpha=0.8, label='Capacidade da Máquina')
 
-    ax.set_xlim(-150, 150)
-    ax.set_ylim(-150, 150)
-
+    margem = 1.2
+    ax.set_xlim(-S_g * margem, S_g * margem)
+    ax.set_ylim(-S_g * margem, S_g * margem)
 
     plt.title('Curva de Capacidade — Plano P x Q', fontsize=12)
     plt.xlabel('P (kW)', fontsize=11)
@@ -73,4 +73,4 @@ def curva_de_capacidade(v_nom_linha, fp, p, xd):
     plt.tight_layout()
     plt.show()
 
-curva_de_capacidade(380, 0.85, 86e3, 4.146)
+curva_de_capacidade(380, 0.85, 451e3, 4.624)

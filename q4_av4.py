@@ -61,4 +61,4 @@ def curva_delta_vs_p(v_linha, p_ativa, fp, xq_pu):
     plt.tight_layout()
     plt.show()
 
-curva_delta_vs_p(380,86000,0.85,1.146)
+curva_delta_vs_p(380,451e3,0.85,1.063)
